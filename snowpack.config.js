@@ -5,6 +5,10 @@ module.exports = {
 		'src/components': '/_components'
 	},
 	alias: {
-		'$components': './src/components'
-	}
+		$components: './src/components'
+	},
+  // fix suggested by @langbamit:
+  installOptions: {
+    externalPackage: require('module').builtinModules.filter(pkg_name => pkg_name !== "process")
+  },
 };

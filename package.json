@@ -7,12 +7,12 @@
 		"start": "svelte-kit start"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-node": "next",
-		"@sveltejs/kit": "next",
-		"@sveltejs/snowpack-config": "next",
-		"svelte": "^3.29.0"
+		"@sveltejs/adapter-node": "^1.0.0-next.0",
+		"@sveltejs/kit": "^1.0.0-next.17",
+		"@sveltejs/snowpack-config": "^1.0.0-next.0",
+		"svelte": "^3.31.2"
 	},
 	"dependencies": {
-		"@supabase/supabase-js": "^1.0.7"
+		"@supabase/supabase-js": "^1.1.4"
 	}
 }
