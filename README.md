@@ -14,7 +14,7 @@ The line causing the bug is in index.svelte:
   import { createClient } from '@supabase/supabase-js'
 ```
 
-### Error message
+### Error message (browser)
 ```
 500
 [778:36]: Unexpected token: 'get'
@@ -37,7 +37,7 @@ SyntaxError: [778:36]: Unexpected token: 'get'
 npm run build
 ```
 
-### Error message
+### Error message (command line)
 ```
  andrew  sveltekit-supabase-bug  npm run build
 
